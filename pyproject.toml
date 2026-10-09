@@ -1,0 +1,19 @@
+[project]
+name = "mymcvserver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AARTI SINGH", email = "147161209+an04jali@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=2.3.0",
+]
+
+[project.scripts]
+mymcvserver = "mymcvserver:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"

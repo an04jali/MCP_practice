@@ -1,0 +1,14 @@
+
+uv init mymcvServer 
+uv venv --python 3.11
+ .venv\Scripts\activate
+code mcpServer
+uv add "mcp[cli]"
+
+TO see on browser
+uv run mcp dev .\mcpServer.py
+
+for claude json
+put server name from python file
+run on terminal (pwd) for args
+run on terimnal path for path
